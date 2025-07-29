@@ -30,3 +30,17 @@ Form submit edildiğinde (Kaydet butonuna basıldığında):
 - Input alanını temizleyin
 - <button> tekrar disabled hale gelsin
 */
+
+const images = document.querySelectorAll("img");
+
+for (let i = 0; i < images.length; i++) {
+  images[i].addEventListener("mouseenter", (event) => {
+    images[i].classList.add("grayscale");
+  });
+}
+
+for (let i = 0; i < images.length; i++) {
+  images[i].addEventListener("mouseleave", (event) => {
+    images[i].classList.remove("grayscale");
+  });
+}
