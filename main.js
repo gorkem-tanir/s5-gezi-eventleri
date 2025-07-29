@@ -44,3 +44,15 @@ for (let i = 0; i < images.length; i++) {
     images[i].classList.remove("grayscale");
   });
 }
+
+window.addEventListener("keyup", (event) => {
+  if (event.key === "1") {
+    document.body.classList.add("theme1");
+  } else if (event.key === "2") {
+    document.body.classList.add("theme2");
+  } else if (event.key === "3") {
+    document.body.classList.add("theme3");
+  } else if (event.key === "Escape") {
+    document.body.classList.remove(...document.body.classList);
+  }
+});
