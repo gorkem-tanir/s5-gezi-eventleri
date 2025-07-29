@@ -56,3 +56,12 @@ window.addEventListener("keyup", (event) => {
     document.body.classList.remove(...document.body.classList);
   }
 });
+
+document.getElementById("full_name").addEventListener("input", (event) => {
+  event.target.value = event.target.value.toUpperCase();
+  if (event.target.value.length > 5) {
+    document.querySelector("button").disabled = false;
+  } else {
+    document.querySelector("button").disabled = true;
+  }
+});
