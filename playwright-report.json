@@ -1,21 +1,21 @@
 {
   "stats": {
-    "expected": 9,
-    "unexpected": 3,
+    "expected": 12,
+    "unexpected": 0,
     "skipped": 0,
     "flaky": 0,
-    "duration": 4258
+    "duration": 2689
   },
   "tests": [
     {
       "title": "img hover edildiğinde grayscale class eklenmeli",
       "status": "passed",
-      "duration": 1235
+      "duration": 760
     },
     {
       "title": "img mouseleave olunca grayscale class silinmeli",
       "status": "passed",
-      "duration": 207
+      "duration": 202
     },
     {
       "title": "1 tuşuna basıldığında body class theme1 olmalı",
@@ -25,27 +25,27 @@
     {
       "title": "2 tuşuna basıldığında body class theme2 olmalı",
       "status": "passed",
-      "duration": 149
+      "duration": 157
     },
     {
       "title": "3 tuşuna basıldığında body class theme3 olmalı",
       "status": "passed",
-      "duration": 161
+      "duration": 157
     },
     {
       "title": "Escape tuşuna basıldığında tüm theme classları kaldırılmalı",
       "status": "passed",
-      "duration": 162
+      "duration": 160
     },
     {
       "title": "Inputa yazılan metin büyük harfe dönüşmeli",
       "status": "passed",
-      "duration": 160
+      "duration": 166
     },
     {
       "title": "5 karakterden küçükken buton disabled olmalı",
       "status": "passed",
-      "duration": 140
+      "duration": 168
     },
     {
       "title": "5 karakter ve üzeri yazıldığında buton enabled olmalı",
@@ -54,18 +54,18 @@
     },
     {
       "title": "Submit edildiğinde paragraf güncellenmeli",
-      "status": "failed",
-      "duration": 325
+      "status": "passed",
+      "duration": 205
     },
     {
       "title": "Submit sonrası input alanı sıfırlanmalı",
-      "status": "failed",
-      "duration": 705
+      "status": "passed",
+      "duration": 182
     },
     {
       "title": "Submit sonrası buton disabled olmalı",
-      "status": "failed",
-      "duration": 677
+      "status": "passed",
+      "duration": 195
     }
   ]
 }

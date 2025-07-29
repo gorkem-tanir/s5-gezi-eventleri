@@ -65,3 +65,11 @@ document.getElementById("full_name").addEventListener("input", (event) => {
     document.querySelector("button").disabled = true;
   }
 });
+
+document.querySelector("button").addEventListener("click", (event) => {
+  document.getElementById("submitResult").textContent = `${
+    document.getElementById("full_name").value
+  } başarı ile kaydedildi.`;
+  document.getElementById("full_name").value = "";
+  document.querySelector("button").disabled = true;
+});
